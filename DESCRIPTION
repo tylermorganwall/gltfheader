@@ -1,0 +1,17 @@
+Package: gltfheader
+Type: Package
+Title: Header-Only 'cgltf' Library for Reading 'glTF' Models
+Version: 1.15.0
+Authors@R: c(
+    person("Tyler", "Morgan-Wall", email = "tylermw@gmail.com",
+        role = c("aut", "cre"),
+        comment = c(ORCID = "0000-0002-3131-3814")),
+    person("Johannes", "Kuhlmann", role = c("aut", "cph"),
+        comment = "Author of the bundled cgltf library"))
+Description: Provides the header-only 'cgltf' 'C' library for reading
+    'glTF' and 'GLB' models <https://github.com/jkuhlmann/cgltf>.
+    Supports scene hierarchies, mesh data, materials, skins, morph targets,
+    and animation channels.
+License: MIT + file LICENSE
+Copyright: file inst/COPYRIGHTS
+Encoding: UTF-8
